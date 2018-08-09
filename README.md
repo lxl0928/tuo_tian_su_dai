@@ -39,22 +39,26 @@
 
 # 目录结构
 ```
-├── conftest.py                              # pytest测试配置1
-├── main                                     # 求解算法
+├── README.md
+├── conftest.py
+├── main
 │   ├── __init__.py
 │   └── solution.py
-├── pytest_report_log.txt                    # pytest运行日志
-├── pytest_report.txt                        # pytest的测试report
-├── README.md                                # 说明文档
-├── requirements.txt                         # 第三方依赖
-├── run_input_samples.py                     # 入口1: 扩展性，交互式输入输出
-├── run_samples.py                           # 入口２: 仅仅输出samples结果
-├── setup.cfg                                # pytest相关配置
-├── tests                                    # 单元测试
+├── pytest_report.txt
+├── pytest_report_log.txt
+├── requirements.txt
+├── run_input_samples.py
+├── run_samples.py
+├── setup.cfg
+├── tests
+│   ├── reportlog.txt
 │   └── test_solution.py
-└── utils                                    # 工具包
-    ├── check_params.py
-    ├── __init__.py
+├── utils
+│   ├── __init__.py
+│   └── check_params.py
+├── 图片1.jpg
+├── 图片2.jpg
+└── 题目介绍.jpg
 ```
 
 # 运行命令
