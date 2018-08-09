@@ -1,0 +1,3 @@
+. tests/test_solution.py::TestSolution::()::test_turn_left
+. tests/test_solution.py::TestSolution::()::test_turn_right
+. tests/test_solution.py::TestSolution::()::test_get_position

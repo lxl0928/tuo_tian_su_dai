@@ -1,0 +1,24 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.2, pytest-3.5.0, py-1.5.3, pluggy-0.6.0
+rootdir: /home/timilong/interview_201807/tuo_tian_su_dai, inifile: setup.cfg
+plugins: cov-2.5.1, celery-4.2.0
+collected 3 items
+
+tests/test_solution.py ...
+
+----------- coverage: platform linux, python 3.6.2-final-0 -----------
+Name               Stmts   Miss  Cover   Missing
+------------------------------------------------
+main/__init__.py       0      0   100%
+main/solution.py      43     13    70%   15, 17, 21, 25, 27, 31, 35, 37, 39, 47, 53-56
+------------------------------------------------
+TOTAL                 43     13    70%
+
+
+=============================== warnings summary ===============================
+None
+  --result-log is deprecated and scheduled for removal in pytest 4.0.
+  See https://docs.pytest.org/en/latest/usage.html#creating-resultlog-format-files for more information.
+
+-- Docs: http://doc.pytest.org/en/latest/warnings.html
+===================== 3 passed, 1 warnings in 0.04 seconds =====================
